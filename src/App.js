@@ -1,11 +1,21 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import { Link, Routes, Route } from 'react-router-dom';
+
+import './style.css';
+import { RatingPage } from './Components/RatingPage';
+import { SubmitPage } from './Components/SubmitPage';
 
 export default function App() {
+const [Rating, setRating] = React.useState("0")
+
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <>
+      
+
+      <Routes>
+        <Route path="/" element={<RatingPage setRating={setRating}/>} />
+        <Route path="/submit" element={<SubmitPage Rating={Rating}/>} />
+      </Routes>
+    </>
   );
 }

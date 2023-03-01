@@ -1,5 +1,128 @@
-h1,
+body {
+  background-color: hsl(216, 12%, 8%);
+  text-align: left;
+  margin: 0;
+  font-family: 'Overpass', sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+}
 p {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  color: hsl(216, 12%, 54%);
+  margin: 0;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+.card {
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5% auto;
+  padding: 1.3em;
+  border-radius: 10%;
+  max-width: 25%;
+  min-width: 25%;
+  height: 24em;
+  border: 2px solid rgb(119, 100, 64);
+}
+
+.starbox {
+  border-radius: 100%;
+  background-color: hsl(216deg 14% 26%);
+  width: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.star-img {
+  height: 25px;
+  width: 25px;
+  color: orange;
+  filter: saturate(1);
+}
+
+/* BUTTON_SECTION */
+.number-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em 0.2em 1em 0.2em;
+}
+
+.number-btn {
+  height: 50px;
+  width: 50px;
+  background-color: hsl(216deg 14% 26%);
+  border-radius: 100%;
+  color: hsl(216, 22%, 72%);
+  border: 0px;
+}
+
+.number:hover {
+  cursor: pointer;
+  background-color: rgb(69, 77, 92);
+}
+
+.number:focus {
+  color: rgb(69, 77, 92);
+  background: orange;
+}
+
+.submit-button {
+  color: #fff;
+  text-align: center;
+  margin: 5% auto;
+  width: 95%;
+  font-size: 1rem;
+  padding: 4%;
+  background-color: orange;
+  border-radius: 25px;
+  border: 0px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #f0b906;
+}
+
+.link {
+  color: #fff;
+}
+
+/* Submit Page CSS */
+.mobile-img {
+  height: 7em;
+  width: 11em;
+  margin: 0em auto;
+  margin-bottom: 1em;
+}
+
+.container {
+  text-align: center;
+  border: 2px solid rgb(119, 100, 64);
+  height: 24em;
+  margin: 4% auto;
+  max-width: 25%;
+  min-width: 25%;
+}
+
+.rating-text {
+  background-color: rgb(69, 77, 92);
+  margin: 1em auto;
+  margin-bottom: 0;
+  padding: 0.5em 0em;
+  width: 12em;
+  border-radius: 20px;
+}
+.rating-text > p {
+  display: inline;
+  font-size: 0.9rem;
+  color: orange;
+  letter-spacing: 0.2px;
 }
