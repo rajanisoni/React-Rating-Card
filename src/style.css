@@ -25,8 +25,8 @@ p {
   margin: 5% auto;
   padding: 1.3em;
   border-radius: 10%;
-  max-width: 25%;
-  min-width: 25%;
+  max-width: 300px;
+  min-width: 300px;
   height: 24em;
   border: 2px solid rgb(119, 100, 64);
 }
@@ -108,8 +108,8 @@ p {
   border: 2px solid rgb(119, 100, 64);
   height: 24em;
   margin: 4% auto;
-  max-width: 25%;
-  min-width: 25%;
+  max-width: 300px;
+  min-width: 300px;
 }
 
 .rating-text {
